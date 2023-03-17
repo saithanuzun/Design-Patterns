@@ -14,12 +14,10 @@ class Program
 {
     public static void Main(string[] args)
     {
-        //var mysingleton = new Singleton(); //private Constructor
+        //var mysingleton = new Singleton-Pattern(); //private Constructor
         var mySingleton = Singleton.Instance;
         mySingleton.Car = "BMW";
         var mySingleton2 = Singleton.Instance;
         Console.WriteLine(mySingleton2.Car);//output: BMW
-        
-        
     }
 }
