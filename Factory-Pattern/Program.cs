@@ -62,5 +62,6 @@ class Program
         
         if(enemy is not  null)
             enemy.FollowHeroShip();
+        Console.WriteLine(enemy.Speed);
     }
 }
